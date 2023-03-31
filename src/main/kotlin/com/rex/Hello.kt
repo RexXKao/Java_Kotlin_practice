@@ -6,6 +6,11 @@ fun main(args: Array<String>) {
     val h = Human(66.5f, 1.7f)
     println(h.bmi())
     println(h.weight)
+
+    val score = 88
+    println(score > 60)
+    val c :Char = 'A'
+    println(c.toInt() > 60)
     /*val age = 19;
     age = 20;
     var weight = 66.5;
