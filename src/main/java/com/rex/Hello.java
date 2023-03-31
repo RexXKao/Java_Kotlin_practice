@@ -13,11 +13,13 @@ public class Hello {
         Integer age2 = 19;
         char c ='i';
         Character c2 = 'A';
-        byte b = 123;
+        byte b = 123; 8位元的有符號整數
         float weight = 66.5f;
         float height = 1.7f;
         boolean adult = true;
         boolean enroll = false;
         String name = "Rex";*/
+//        double 是64位元的浮點樹類型
+//        short/long 代表16位元和64位元的有符號整數
     }
 }

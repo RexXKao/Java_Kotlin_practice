@@ -10,7 +10,7 @@ public class Person {
         this.height = height;
     }
 
-    public Person(String name, float weight, float height) {
+    public Person(String name, Float weight, float height) {
         this(weight, height);
         this.name = name;
         /*this.weight = weight;
