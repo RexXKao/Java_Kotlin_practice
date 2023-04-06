@@ -3,6 +3,12 @@ package com.rex
 fun main(args: Array<String>) {
 //    println("Hello kotlin")
 //    Human().hello()
+    var s:String? = "abcde"
+    s = null
+    println(s?.length)
+    println(s?.get(3))
+    println(s?.substring(3))
+
     val h = Human(66.5f, 1.7f)
     println(h.bmi())
     println(h.weight)
